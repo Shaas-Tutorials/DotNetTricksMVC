@@ -1,0 +1,27 @@
+﻿@model HtmlHelpers7AM.Models.UserViewModel
+@{
+    ViewBag.Title = "StronglyTyped";
+}
+
+<h2>StronglyTyped</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        Username : @Html.TextBoxFor(m => m.Username)
+    </div>
+    <div>
+        Full Name : @Html.TextBoxFor(m => m.FullName)
+    </div>
+
+    <div>
+        Password : @Html.PasswordFor(m => m.Password)
+    </div>
+    <div>
+        Address : @Html.TextAreaFor(m => m.Address)
+    </div>
+
+    <div>
+        <input type="submit" value="Save" />
+    </div>
+}

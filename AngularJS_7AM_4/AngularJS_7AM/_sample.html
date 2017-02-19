@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .controller("ctrl", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl">
+       
+    </div>
+</body>
+</html>

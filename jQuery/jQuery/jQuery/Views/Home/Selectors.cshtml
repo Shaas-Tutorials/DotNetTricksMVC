@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Selectors";
+}
+<script>
+    $(document).ready(function () {
+        //$("*").each(function (index, el) {
+        //    console.log($(el).html());
+        //    //console.log($(el).text());
+        //});
+
+        //$("h2,p").each(function (index, el) {
+        //    //console.log($(el).html());
+        //    console.log($(el).text());
+        //});
+
+        //$(".text-info").each(function (index, el) {
+        //    //console.log($(el).html());
+        //    console.log($(el).text());
+        //});
+
+        $("#btnGet").click(function () {
+            var value = $("#Name").val();
+            console.log(value);
+        });
+
+        $("#btnShow").click(function () {
+            $("p").show();
+        });
+        $("#btnHide").click(function () {
+            $("p").hide();
+        });
+
+        $("#btnCss").click(function () {
+            $("p").addClass("text-danger");
+        });
+
+        //as bind
+        //$("#btnFly").on("click", function () {
+        //    var str = '<button type="button" id="btnFly">onFly</button>';
+        //    $("#para").append(str);
+        //});
+
+        //as delegate
+        //$("#container").on("click", "button", function () {
+        //    var str = '<button type="button" id="btnFly">onFly</button>';
+        //    $("#para").append(str);
+        //});
+
+        //as live
+        $(document).on("click", "button", function () {
+            var str = '<button type="button" id="btnFly">onFly</button>';
+            $("#para").append(str);
+        });
+    });
+</script>
+
+<h2>Selectors</h2>
+<p class="text-info">This is <b>Selector</b></p>
+
+<h2 class="text-info">Description</h2>
+<p>Selectors are used to select elements</p>
+
+<p>
+    @Html.TextBox("Name")
+</p>
+<button type="button" id="btnGet">Get</button>
+<button type="button" id="btnShow">Show</button>
+<button type="button" id="btnHide">Hide</button>
+<button type="button" id="btnCss">Css</button>
+<br />
+<div id="container">
+    <button type="button" id="btnFly">onFly</button>
+
+    <p id="para">
+
+    </p>
+</div>

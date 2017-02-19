@@ -1,0 +1,9 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\obj\Debug\ViewModels.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\ViewModels\bin\Debug\ViewModels.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\ViewModels\bin\Debug\ViewModels.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\ViewModels\obj\Debug\ViewModels.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\ViewModels\obj\Debug\ViewModels.pdb

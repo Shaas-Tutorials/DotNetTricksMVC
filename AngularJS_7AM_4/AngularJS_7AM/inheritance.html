@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .controller("ctrl1", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+                $rootScope.Building = "IT Park";
+
+                $scope.Name = "TCS";
+                $scope.CEO = "AK Singh";
+            })
+            .controller("ctrl2", function ($scope) {
+                $scope.Name = "IT Department";
+                $scope.Manager = "MK Singh";
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl1">
+        <div>{{Building}} | {{Name}}</div>
+        <div ng-controller="ctrl2">
+            <h3>Child of ctrl1</h3>
+            <p>{{Building}} | {{$parent.Name}} | {{Name}}</p>
+            <p>{{Manager}} reports to => {{CEO}}</p>
+        </div>
+    </div>
+    <div ng-controller="ctrl2">
+        <h3>Sibling of ctrl1</h3>
+        <p>{{Building}} | {{$parent.Name}} | {{Name}}</p>
+        <p>{{Manager}} reports to => {{CEO}}</p>
+    </div>
+</body>
+</html>

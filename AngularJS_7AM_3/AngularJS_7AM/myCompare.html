@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .directive("myCompare", function () {
+                return {
+                    restrict: "A",
+                    require: "ngModel",
+                    link: function (scope, el, attrs, ctrl) {
+                        var firstFl = document.getElementsByName(attrs.myCompare)[0];
+                        var firstEl = angular.element(firstFl);
+
+                        el.on("keyup", function () {
+                            var IsMatch = firstEl.val() === el.val();
+                            ctrl.$setValidity("compare", IsMatch);
+                            scope.$digest();
+                        });
+
+                        firstEl.on("keyup", function () {
+                            var IsMatch = firstEl.val() === el.val();
+                            ctrl.$setValidity("compare", IsMatch);
+                            scope.$digest();
+                        });
+                    }
+                }
+            })
+        .controller("ctrl", function ($rootScope) {
+            $rootScope.Title = "Custom Directive";
+        });
+
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl">
+        <form name="userForm" novalidate>
+            <div>
+                Password : <input type="password" ng-model="user.Password" name="Password" />
+            </div>
+            <div>
+                Confirm Password : <input type="password" ng-model="user.ConfirmPassword" name="ConfirmPassword" my-compare="Password" />
+                <p ng-show="userForm.ConfirmPassword.$error.compare">
+                    Confirm Password doesn't matched
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

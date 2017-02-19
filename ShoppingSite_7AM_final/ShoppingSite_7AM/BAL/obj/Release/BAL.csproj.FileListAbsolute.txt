@@ -1,0 +1,14 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\BAL.dll.config
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\BAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\BAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\DAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\EntityFramework.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\DAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\EntityFramework.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\obj\Release\BAL.csprojResolveAssemblyReference.cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\obj\Release\BAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\obj\Release\BAL.pdb

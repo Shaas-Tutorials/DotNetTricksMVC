@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="libs/angular.js"></script>
+    <script src="libs/angular-ui-router.js"></script>
+    <script>
+        angular
+            .module("myApp", ["ui.router"])
+            .config(function ($stateProvider, $urlRouterProvider) {
+                $urlRouterProvider.otherwise("/");
+
+                $stateProvider
+                    .state("home", {
+                        url: "/",
+                        templateUrl: "views/home.html",
+                        controller: "ctrl"
+                    })
+                    .state("about", {
+                        url: "/about/:id",
+                        templateUrl: "views/about.html",
+                        controller: "ctrl"
+                    });
+            })
+            .controller("ctrl", function ($scope, $rootScope, $state, $stateParams) {
+                if ($state.current.name == "home") {
+                    $rootScope.Title = "Home Page";
+                }
+                else if ($state.current.name == "about") {
+                    $rootScope.Title = "About Us Page";
+                    $scope.id = $stateParams.id;
+                }
+            });
+    </script>
+</head>
+<body>
+   <div ng-include="'views/_header.html'"></div>
+    <div class="container">
+        <ui-view></ui-view>
+    </div>    
+</body>
+</html>

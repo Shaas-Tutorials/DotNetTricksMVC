@@ -1,0 +1,35 @@
+﻿@model  ViewModels.ProductPagedModel
+
+@{
+    ViewBag.Title = "Index";
+    WebGrid grid = new WebGrid(rowsPerPage: Model.PageSize, ajaxUpdateContainerId: "grid");
+
+    grid.Bind(Model.Products, autoSortAndPage: false, rowCount: Model.TotalRecords);
+}
+<script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm())
+{
+    <p>
+        @Html.TextBox("Search") <input type="submit" value="Search" />
+    </p>
+}
+@grid.GetHtml(htmlAttributes: new { id = "grid", @class = "table" },
+mode: WebGridPagerModes.All,
+previousText: "<",
+firstText: "<<",
+nextText: ">",
+lastText: ">>",
+columns: new[]{
+    grid.Column("ProductId","Product Id",canSort:false),
+    grid.Column("Name"),
+    grid.Column("UnitPrice","Unit Price"),
+    grid.Column(header:"Actions",format:@<text>
+        @Html.ActionLink("Edit", "Edit", "Product", new { id = item.ProductId }, null) |
+        @Html.ActionLink("Delete", "Delete", "Product", new { id = item.ProductId }, new { onclick = "return confirm('Are you sure to delete')" })
+    </text>)
+})

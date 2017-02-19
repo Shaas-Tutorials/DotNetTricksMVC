@@ -1,0 +1,4 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\obj\Debug\ViewModels.pdb

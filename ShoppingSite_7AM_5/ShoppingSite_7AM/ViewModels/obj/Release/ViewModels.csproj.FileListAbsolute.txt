@@ -1,0 +1,5 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\bin\Release\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\bin\Release\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\obj\Release\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\obj\Release\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\ViewModels\obj\Release\ViewModels.pdb

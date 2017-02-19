@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{Title}}</title>
+    @Styles.Render("~/css/app")
+    @Scripts.Render("~/js/lib")
+    @Scripts.Render("~/js/app")
+
+    @*<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/angular.js"></script>
+        <script src="~/Scripts/angular-ui-router.js"></script>
+
+        <script src="~/Views/App/app.js"></script>
+        <script src="~/Views/App/services/store.service.js"></script>
+        <script src="~/Views/App/models/shoppingCart.js"></script>
+        <script src="~/Views/App/controllers/store.controller.js"></script>*@
+
+    @{
+        
+        var user = CurrentUser != null ? CurrentUser : new Site.Security.CustomPrincipal("");
+    }
+        <script>
+            var authInfo = {
+                userId:'@user.UserId',
+                firstname:'@user.Name',
+                email:'@user.Email',
+                phone:'@user.ContactNo'
+            }
+        </script>
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" class="navbar-brand">Online Store</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        @if (CurrentUser != null)
+                        {
+                            <li style="padding-top:15px; color:#fff">
+                                Welcome : @CurrentUser.Name
+                            </li>
+                            <li>
+                                @Html.ActionLink("Sign Out", "SignOut", "Account", new { area = "" }, null)
+                            </li>
+                        }
+                        <li>
+                            <a ui-sref="cart">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>  {{cart.getTotalCount()}} items, Rs. {{cart.getTotalPrice()}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <ui-view></ui-view>
+        </div>
+    </body>
+</html>

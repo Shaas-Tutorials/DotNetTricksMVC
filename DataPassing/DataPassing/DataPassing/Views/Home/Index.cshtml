@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    string name = (string)ViewData["Name"];
+    string fullName = ViewBag.FullName;
+}
+
+<h2>Index</h2>
+
+<div>
+    ViewData : @ViewData["Name"] , @ViewData["FullName"] , @name
+</div>
+<div>
+    ViewBag : @ViewBag.FullName , @ViewBag.Name , @fullName
+</div>
+
+@Html.ActionLink("Link","SaveData", "Home", new {id=2, name="Shailendra" },null)

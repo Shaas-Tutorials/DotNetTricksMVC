@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script src="libs/elif.js"></script>
+    <script>
+        angular
+            .module("myApp", ["elif"])
+            .controller("ctrl", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+                $scope.Number = 2;
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl">
+        <input type="number" ng-model="Number"  />
+
+        <h2>ng-if</h2>
+        <div ng-if="Number!=undefined && Number%2==0">
+            Even Number
+        </div>
+        <div ng-if="Number!=undefined && Number%2>0">
+            Odd Number
+        </div>
+
+        <h2>ng-show/hide</h2>
+        <div ng-show="Number!=undefined && Number%2==0">
+            Even Number
+        </div>
+        <div ng-hide="Number==undefined || Number%2==0">
+            Odd Number
+        </div>
+
+        <h2>ng-if-else-else-if</h2>
+        <div ng-if="Number!=undefined && Number%2==0">
+            Even Number
+        </div>
+        <div ng-else-if="Number!=undefined && Number%2>0">
+            Odd Number
+        </div>
+        <div ng-else>
+            Number is not given
+        </div>
+
+        <h2>ng-switch</h2>
+        <div>
+            <input type="text" ng-model="Alphabet"/>
+
+            <div ng-switch="Alphabet">
+                <div ng-switch-when="a">
+                    Vowel
+                </div>
+                <div ng-switch-when="e">
+                    Vowel
+                </div>
+                <div ng-switch-when="i">
+                    Vowel
+                </div>
+                <div ng-switch-when="o">
+                    Vowel
+                </div>
+                <div ng-switch-when="u">
+                    Vowel
+                </div>
+                <div ng-switch-default>
+                    Not a Vowel
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

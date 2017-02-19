@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\DOT NET TRICKS\Training\IIS\MVC</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/Category/Create.cshtml">
+      <publishTime>08/31/2016 08:25:30</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Category/Index.cshtml">
+      <publishTime>08/31/2016 08:22:18</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Index.cshtml">
+      <publishTime>08/30/2016 07:58:47</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Product/Create.cshtml">
+      <publishTime>08/31/2016 08:28:08</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Product/Index.cshtml">
+      <publishTime>08/31/2016 08:28:13</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_Layout.cshtml">
+      <publishTime>08/31/2016 08:31:19</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>08/31/2016 08:03:38</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/_ViewStart.cshtml">
+      <publishTime>08/30/2016 07:58:38</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Home/Index.cshtml">
+      <publishTime>08/30/2016 07:59:18</publishTime>
+    </File>
+    <File Include="Areas/User/Views/Shared/_Layout.cshtml">
+      <publishTime>08/31/2016 08:08:14</publishTime>
+    </File>
+    <File Include="Areas/User/Views/web.config">
+      <publishTime>08/31/2016 08:03:14</publishTime>
+    </File>
+    <File Include="Areas/User/Views/_ViewStart.cshtml">
+      <publishTime>08/30/2016 07:59:12</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/01/2016 08:43:49</publishTime>
+    </File>
+    <File Include="bin/BAL.dll">
+      <publishTime>09/02/2016 08:32:11</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>09/02/2016 08:32:10</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/29/2016 08:03:13</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>08/29/2016 08:03:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>08/30/2016 07:55:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>08/30/2016 07:55:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>08/30/2016 07:55:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <publishTime>08/30/2016 07:55:43</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/31/2016 07:50:51</publishTime>
+    </File>
+    <File Include="bin/Site.dll">
+      <publishTime>09/02/2016 08:44:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/29/2016 07:43:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/29/2016 07:43:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/01/2016 08:43:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/29/2016 07:43:51</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>08/29/2016 07:43:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>08/29/2016 07:43:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>08/29/2016 07:43:52</publishTime>
+    </File>
+    <File Include="bin/Unity.Mvc5.dll">
+      <publishTime>08/30/2016 07:55:43</publishTime>
+    </File>
+    <File Include="bin/ViewModels.dll">
+      <publishTime>09/02/2016 08:32:10</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/01/2016 08:43:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>08/30/2016 07:52:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/29/2016 07:43:51</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/01/2016 08:43:54</publishTime>
+    </File>
+    <File Include="Scripts/angular-ui-router.js">
+      <publishTime>09/01/2016 07:43:04</publishTime>
+    </File>
+    <File Include="Scripts/angular.js">
+      <publishTime>09/01/2016 07:43:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/30/2016 07:52:27</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/aes-min.js">
+      <publishTime>09/02/2016 07:59:34</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/aes.js">
+      <publishTime>09/02/2016 07:59:34</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/cipher-core-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/cipher-core.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/core-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/core.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/enc-base64-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/enc-base64.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/enc-utf16-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/enc-utf16.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/evpkdf-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/evpkdf.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/format-hex-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/format-hex.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/hmac-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/hmac.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/lib-typedarrays-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/lib-typedarrays.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/md5-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/md5.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-cfb-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-cfb.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ctr-gladman-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ctr-gladman.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ctr-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ctr.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ecb-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ecb.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ofb-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/mode-ofb.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-ansix923-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-ansix923.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-iso10126-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-iso10126.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-iso97971-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-iso97971.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-nopadding-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-nopadding.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-zeropadding-min.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pad-zeropadding.js">
+      <publishTime>09/02/2016 07:59:35</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pbkdf2-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/pbkdf2.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/rabbit-legacy-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/rabbit-legacy.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/rabbit-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/rabbit.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/rc4-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/rc4.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/ripemd160-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/ripemd160.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha1-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha1.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha224-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha224.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha256-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha256.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha3-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha3.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha384-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha384.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha512-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/sha512.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/tripledes-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/tripledes.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/x64-core-min.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/components/x64-core.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/aes.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-md5.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-ripemd160.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-sha1.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-sha224.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-sha256.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-sha3.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-sha384.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/hmac-sha512.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/md5.js">
+      <publishTime>09/02/2016 07:59:36</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/pbkdf2.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/rabbit-legacy.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/rabbit.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/rc4.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/ripemd160.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/sha1.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/sha224.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/sha256.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/sha3.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/sha384.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/sha512.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/CryptoJS/rollups/tripledes.js">
+      <publishTime>09/02/2016 07:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>08/30/2016 07:52:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>08/30/2016 07:52:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>08/30/2016 07:52:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>08/30/2016 07:52:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>08/30/2016 07:52:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>08/30/2016 07:52:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>08/30/2016 07:52:27</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>08/30/2016 07:52:28</publishTime>
+    </File>
+    <File Include="Uploads/angularjs.jpg">
+      <publishTime>08/31/2016 08:32:57</publishTime>
+    </File>
+    <File Include="Uploads/cello.jpg">
+      <publishTime>08/31/2016 08:33:35</publishTime>
+    </File>
+    <File Include="Uploads/mvc.jpg">
+      <publishTime>08/31/2016 08:32:40</publishTime>
+    </File>
+    <File Include="Uploads/parker.jpg">
+      <publishTime>08/31/2016 08:33:20</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>08/30/2016 08:03:46</publishTime>
+    </File>
+    <File Include="Views/Account/Unauthorize.cshtml">
+      <publishTime>08/31/2016 07:41:58</publishTime>
+    </File>
+    <File Include="Views/App/app.js">
+      <publishTime>09/02/2016 08:30:26</publishTime>
+    </File>
+    <File Include="Views/App/controllers/store.controller.js">
+      <publishTime>09/02/2016 08:20:46</publishTime>
+    </File>
+    <File Include="Views/App/Index.cshtml">
+      <publishTime>09/02/2016 08:07:52</publishTime>
+    </File>
+    <File Include="Views/App/models/shoppingCart.js">
+      <publishTime>09/02/2016 07:50:44</publishTime>
+    </File>
+    <File Include="Views/App/services/store.service.js">
+      <publishTime>09/02/2016 08:12:57</publishTime>
+    </File>
+    <File Include="Views/App/Success.cshtml">
+      <publishTime>09/02/2016 07:58:09</publishTime>
+    </File>
+    <File Include="Views/App/views/cart.html">
+      <publishTime>09/01/2016 08:35:06</publishTime>
+    </File>
+    <File Include="Views/App/views/product.html">
+      <publishTime>09/01/2016 08:40:11</publishTime>
+    </File>
+    <File Include="Views/App/views/store.html">
+      <publishTime>09/01/2016 08:36:39</publishTime>
+    </File>
+    <File Include="Views/App/_ViewStart.cshtml">
+      <publishTime>09/01/2016 07:43:49</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/31/2016 08:08:21</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>09/02/2016 08:03:02</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/30/2016 07:52:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/02/2016 08:44:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

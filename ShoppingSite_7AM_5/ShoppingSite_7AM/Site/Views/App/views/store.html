@@ -1,0 +1,16 @@
+﻿<table class="table table-condensed">
+    <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>UnitPrice</th>
+        <th></th>
+    </tr>
+    <tr ng-repeat="item in products">
+        <td><img src="{{item.ImagePath}}" /></td>
+        <td><a ui-sref="product({id:item.ProductId})">{{item.Name}}</a></td>
+        <td>{{item.UnitPrice}}</td>
+        <td>
+            <button ng-click="cart.addItem(item.ProductId, item.Name, item.UnitPrice, +1)" class="btn btn-primary">Add Cart</button>
+        </td>
+    </tr>
+</table>

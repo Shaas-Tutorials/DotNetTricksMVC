@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        //1. Method Parameters
+        //2. Inline Array
+        //3. $inject
+
+        function ctrl3(s, r) {
+            s.message = "$inject way";
+        }
+        ctrl3.$inject = ["$scope", "$rootScope"];
+
+        angular
+            .module("myApp", [])
+            .controller("ctrl1", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+                $scope.message = "Method Parameters";
+            })
+            .controller("ctrl2", ["$scope", "$rootScope", function (s, r) {
+                s.message = "Inline Array";
+            }])
+            .controller("ctrl3", ctrl3);
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl1">
+        {{message}}
+    </div>
+    <div ng-controller="ctrl2">
+        {{message}}
+    </div>
+    <div ng-controller="ctrl3">
+        {{message}}
+    </div>
+</body>
+</html>

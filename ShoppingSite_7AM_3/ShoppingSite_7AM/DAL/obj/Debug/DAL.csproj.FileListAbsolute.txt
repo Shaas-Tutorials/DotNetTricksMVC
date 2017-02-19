@@ -1,0 +1,13 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\bin\Debug\DAL.dll.config
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\bin\Debug\DAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\bin\Debug\DAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\obj\Debug\DAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\obj\Debug\DAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\obj\Debug\DAL.Migrations.initial.resources
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\DAL\obj\Debug\DAL.Migrations.update1.resources

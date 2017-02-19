@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+<script>
+    $(document).ready(function () {
+        $("#btnLogin").click(function () {
+            var obj = {
+                Username: $("#Username").val().trim(),
+                Password: $("#Password").val().trim()
+            }
+
+            @*$.ajax({
+                type: "POST",
+                url: "@Url.Action("UserLogin", "Account")",
+                data:JSON.stringify(obj),
+                contentType: "application/json;utf8",
+                success: function (data) {
+                    if (data == "success") {
+                        window.location.href = "@Url.Action("Dashboard","Home")";
+                    }
+                    else {
+                        alert(data);
+                    }
+                }
+            });*@
+
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("UserLogin", "Account")?Username="+obj.Username+"&Password="+obj.Password,                
+                contentType: "application/json;utf8",
+                success: function (data) {
+                    if (data == "success") {
+                        window.location.href = "@Url.Action("Dashboard","Home")";
+                    }
+                    else {
+                        alert(data);
+                    }
+            }
+        });
+        });
+    })
+</script>
+<div>
+    <p>
+        Username : @Html.TextBox("Username")
+    </p>
+    <p>
+        Password : @Html.Password("Password")
+    </p>
+    <p>
+        <input type="submit" value="Login" id="btnLogin" />
+    </p>
+</div>

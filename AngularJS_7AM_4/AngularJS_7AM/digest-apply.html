@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script src="libs/jquery.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .controller("ctrl1", function ($scope) {
+
+            })
+            .controller("ctrl2", function ($scope, $rootScope) {
+                $rootScope.Counter = 0;
+
+                $scope.UpdateCounter = function () {
+                    $rootScope.Counter++;
+                };
+
+                $("#btn").click(function () {
+                    $rootScope.Counter++;
+                    // $scope.$digest(); //current scope-child scope
+                    $scope.$apply();
+                    console.log($rootScope.Counter);
+                });
+
+                //var btn = document.getElementById("btn");
+                //angular.element(btn).on("click", function () {
+                //    $rootScope.Counter++;
+
+                //    // $scope.$digest(); //current scope-child scope
+                //    $scope.$apply();
+                //    console.log($rootScope.Counter);
+                //});
+            })
+            .controller("ctrl3", function ($scope) {
+
+            })
+             .controller("ctrl4", function ($scope) {
+
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl1">
+        <h3>Parent : {{Counter}}</h3>
+        <div ng-controller="ctrl2">
+            <h3>Current : {{Counter}}</h3>
+            <button type="button" ng-click="UpdateCounter()">ng-click</button>
+            <button type="button" id="btn">jQLite-click</button>
+
+            <div ng-controller="ctrl3">
+                <h3>Child : {{Counter}}</h3>
+            </div>
+        </div>
+        <div ng-controller="ctrl4">
+            <h3>Sibling : {{Counter}}</h3>
+        </div>
+    </div>
+</body>
+</html>

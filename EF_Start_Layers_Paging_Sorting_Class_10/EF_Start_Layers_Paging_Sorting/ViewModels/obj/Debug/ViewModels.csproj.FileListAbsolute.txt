@@ -1,0 +1,10 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\obj\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers_Paging_Sorting\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers_Paging_Sorting\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers_Paging_Sorting\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers_Paging_Sorting\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers_Paging_Sorting\ViewModels\obj\Debug\ViewModels.pdb

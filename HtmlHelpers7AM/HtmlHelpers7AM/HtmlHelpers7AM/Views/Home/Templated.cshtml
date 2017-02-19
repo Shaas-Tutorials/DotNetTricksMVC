@@ -1,0 +1,16 @@
+﻿@model HtmlHelpers7AM.Models.UserViewModel
+@{
+    ViewBag.Title = "Templated";
+}
+
+<h2>Templated</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.EditorForModel()
+    </div>
+    <div>
+        <input type="submit" value="Save" />
+    </div>
+}

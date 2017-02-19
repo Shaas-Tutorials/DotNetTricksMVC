@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Inline";
+}
+
+<h2>Inline</h2>
+
+@helper ShowList(string[] arr)
+{
+    <ul>
+        @foreach (var item in arr)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+
+<h2>Weekdays Listing</h2>
+@ShowList(new string[]{"Mon","Tue","Wed","Thu","Fri"})
+
+<h2>Fruits Listing</h2>
+@ShowList(new string[] { "Apple", "Mango", "Banana", "Orange"})

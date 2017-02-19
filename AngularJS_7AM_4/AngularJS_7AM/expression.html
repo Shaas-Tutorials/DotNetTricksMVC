@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .controller("ctrl", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+
+                $scope.UnitPrice = 12;
+                $scope.Quantity = 2;
+
+                $scope.$watchGroup(["Quantity", "UnitPrice"], function (newVal, oldVal) {
+                    $scope.Total = newVal[0] * newVal[1];
+                });
+
+                //$scope.$watch("Quantity", function (newVal,oldVal) {
+                //    $scope.Total = newVal * $scope.UnitPrice;
+                //});
+                //$scope.$watch("UnitPrice", function (newVal, oldVal) {
+                //    $scope.Total = newVal * $scope.Quantity;
+                //});
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl">
+        <p>Simple Expression : {{4*3+2}}</p>
+        <div>
+            <input type="number" ng-model="Quantity" /> X <input type="number" ng-model="UnitPrice" /> = {{Quantity * UnitPrice}} | <span ng-bind="Quantity * UnitPrice"></span> | {{Total}}
+        </div>
+    </div>
+</body>
+</html>

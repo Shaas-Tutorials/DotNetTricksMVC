@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Form";
+}
+
+<h2>Form</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        Username : @Html.TextBox("Username")
+    </div>
+    <div>
+        Full Name : @Html.TextBox("FullName")
+    </div>
+    
+    <div>
+        Address : @Html.TextArea("Address")
+    </div>
+    <div>
+        <input type="submit" value="Save"/>
+    </div>
+}

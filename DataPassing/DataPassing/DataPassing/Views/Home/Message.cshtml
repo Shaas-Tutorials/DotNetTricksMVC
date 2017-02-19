@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Message";
+}
+
+<h2>Message</h2>
+
+<div>
+    TempData        :  @TempData["Username"] <br>
+    TempData(Peek)  :  @TempData.Peek("FullName")  <br>
+    Session         :   @Session["Address"]  <br />
+    ViewData        :  @ViewData["Address"]   <br>
+    ViewBag         :  @ViewBag.FullName       <br />
+</div>

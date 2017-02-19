@@ -1,0 +1,74 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\WebAPI.dll.config
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\WebAPI.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\WebAPI.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\obj\Debug\WebAPI.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\obj\Debug\WebAPI.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\BAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Unity.WebApi.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\DAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\EntityFramework.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\BAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\DAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\EntityFramework.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Web.Cors.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\WebAPI\bin\EntityFramework.SqlServer.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\WebAPI.dll.config
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\WebAPI.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\WebAPI.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\BAL.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\EntityFramework.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\EntityFramework.SqlServer.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Newtonsoft.Json.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Web.Cors.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.Cors.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Unity.WebApi.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\ViewModels.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\DAL.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\BAL.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\ViewModels.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\EntityFramework.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\EntityFramework.SqlServer.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.ServiceLocation.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.Cors.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\Newtonsoft.Json.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\bin\DAL.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\obj\Debug\WebAPI.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_final\ShoppingSite_7AM\WebAPI\obj\Debug\WebAPI.pdb

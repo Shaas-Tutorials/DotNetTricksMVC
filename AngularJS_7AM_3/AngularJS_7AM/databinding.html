@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .controller("ctrl", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+
+                $scope.Name = "Shailendra";
+                $scope.Address = "Noida";
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl">
+        <div>
+            Two-Way Way Data Binding : <input type="text" ng-model="Name" />
+        </div>
+        <div>
+            Normal Data Binding : {{Name}} | <span ng-bind="Name"></span><br />
+            <input type="text" value="{{Address}}" /> | {{Address}}
+        </div>
+        <div>
+            One Way Data Binding : {{::Name}} | <span ng-bind="::Name"></span>
+        </div>
+    </div>
+</body>
+</html>

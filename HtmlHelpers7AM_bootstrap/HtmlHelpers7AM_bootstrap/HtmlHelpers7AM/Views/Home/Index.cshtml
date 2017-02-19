@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="form-horizontal">
+    @using (Html.BeginForm())
+    {
+        <div class="form-group">
+            Name :  <input type="text" name="Name" id="Username" class="form-control" />
+        </div>
+        <div class="form-group">
+            Username : @Html.TextBox("Name", null, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            Full Name : @Html.TextBox("FullName", null, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            Password : @Html.Password("Password", null, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            Address : @Html.TextArea("Address", null, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @*<input  type="submit" value="Save"/>*@
+
+            @Html.SubmitButton("Save", "Command")
+            @Html.strSubmitButton("Cancel", "Command")
+            @Html.Raw(Html.strSubmitButton("Reset", "Command"))
+        </div>
+    }
+</div>

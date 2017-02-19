@@ -1,0 +1,92 @@
+﻿<h1>Shopping Cart</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <!-- items -->
+            <table class="table table-bordered">
+                <!-- header -->
+                <tr class="well">
+                    <td><b>Item</b></td>
+                    <td><b>Quantity</b></td>
+                    <td><b>Price</b></td>
+                    <th>Actions</th>
+                </tr>
+                <!-- empty cart message -->
+                <tr ng-hide="cart.getTotalCount() > 0">
+                    <td colspan="4">
+                        Your cart is empty.
+                    </td>
+                </tr>
+                <!-- cart items -->
+                <tr ng-repeat="item in cart.Items | orderBy:'name'">
+                    <td>{{item.Name}}</td>
+                    <td>
+                        <div class="input-group">
+                            <!-- use type=tel instead of  to prevent spinners -->
+                            <input class="form-control" type="text"
+                                   ng-model="item.Quantity"
+                                   ng-change="cart.saveItems()" style="width:60px" />
+                            &nbsp;<button class="btn btn-success" type="button"
+                                          ng-disabled="item.Quantity >= 1000"
+                                          ng-click="cart.addItem(item.ProductId, item.Name, item.UnitPrice, +1)">
+                                +
+                            </button>
+                            &nbsp;<button class="btn btn-inverse" type="button"
+                                          ng-disabled="item.quantity <= 1"
+                                          ng-click="cart.addItem(item.ProductId, item.Name, item.UnitPrice, -1)">
+                                -
+                            </button>
+                        </div>
+                    </td>
+                    <td>{{item.UnitPrice * item.Quantity | currency:"Rs."}}</td>
+                    <td title="Remove from cart">
+                        <button class="btn btn-danger" type="button"
+                                ng-click="cart.addItem(item.ProductId, item.Name, item.UnitPrice, -100000)">
+                            X
+                        </button>
+                    </td>
+                </tr>
+                <!-- footer -->
+                <tr ng-show="cart.getTotalCount() > 0">
+                    <td></td>
+                    <td><b>Total</b></td>
+                    <td><b>{{cart.getTotalPrice() | currency : "Rs."}}</b></td>
+                    <td></td>
+                </tr>
+                <tr ng-show="cart.getTotalCount() > 0">
+                    <td></td>
+                    <td><b>Service Tax</b></td>
+                    <td><b>{{cart.Tax}}%</b></td>
+                    <td></td>
+                </tr>
+                <tr ng-show="cart.getTotalCount() > 0">
+                    <td></td>
+                    <td><b>Grand Total</b></td>
+                    <td><b>{{cart.GrandTotal| currency :"Rs."}}</b></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <!-- buttons -->
+        <div class="col-md-4">
+            <p class="text-info">
+                <a class="btn btn-block btn-success" ui-sref="home">
+                    <i class="fa fa-briefcase"></i> Continue Shopping >>
+                </a>
+                <button class="btn btn-block btn-danger"
+                        ng-click="cart.clearItems()"
+                        ng-disabled="cart.getTotalCount() < 1">
+                    <i class="fa fa-trash" /> Clear Cart
+                </button>
+            </p>
+            <br /><br />
+            <p>
+                <button class="btn btn-block btn-primary"
+                        ng-click="checkout()"
+                        ng-disabled="cart.getTotalCount() < 1">
+                    <i class="icon-ok icon-white" /> Check out using PayUmoney
+                </button>
+            </p>
+        </div>
+    </div>
+</div>

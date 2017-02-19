@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script src="js//manual.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div ng-controller="ctrl">
+            <p> <input type="text" ng-model="Name" /> : {{Name}} | {{Address}} </p>
+            <p>
+                <button type="button" ng-click="SayHi()">Say Hi</button> {{Message}}
+            </p>
+        </div>
+        <div ng-controller="ctrl2">
+            {{Message}}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<table class="table table-condensed">
+    <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>UnitPrice</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><img src="{{product.ImagePath}}" /></td>
+        <td><a ui-sref="product({id:product.ProductId})">{{product.Name}}</a></td>
+        <td>{{product.Description}}</td>
+        <td>{{product.UnitPrice}}</td>
+        <td>
+            <button ng-click="cart.addItem(product.ProductId, product.Name, product.UnitPrice, +1)" class="btn btn-primary">Add Cart</button>
+            <button ng-click="cart.addItem(product.ProductId, product.Name, product.UnitPrice, -10000)" class="btn btn-danger">Remove Cart</button>
+        </td>
+    </tr>
+</table>

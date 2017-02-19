@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    string message = "Hello MVC";
+}
+
+<h2>Index</h2>
+
+<p>@message</p>
+
+@if (true)
+{
+    <p>@message</p>
+}
+
+@for (int i = 1; i <= 5; i++)
+{
+    <p>Line @i</p>
+}
+

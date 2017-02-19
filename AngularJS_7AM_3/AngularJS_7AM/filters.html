@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .filter("reverse", function () {
+                return function (input) {
+                    var result = "";
+                    for (var i = 0; i < input.length; i++) {
+                        result = input[i] + result;
+                    }
+                    return result;
+                }
+            })
+            .controller("ctrl", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+
+                $scope.employees = [
+                 { name: "Shailendra", address: "Noida", salary: 12000, joining: new Date() },
+                 { name: "Mohan", address: "Noida", salary: 10000, joining: new Date() },
+                 { name: "Deepak", address: "Gurgaon", salary: 8000, joining: new Date() },
+                 { name: "Ankit", address: "Delhi", salary: 13000, joining: new Date() }
+                ];
+
+                $scope.colors = [{ id: 1, name: "red" }, { id: 2, name: "green" }, { id: 3, name: "blue" }]
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl">
+        <ul>
+            <li ng-repeat="emp in employees | orderBy:'-name'">
+                {{emp.name | uppercase | reverse}} | {{emp.address | lowercase}} | {{emp.salary | currency:'INR'}} | {{emp.joining | date:'dd/MM/yyyy'}}
+            </li>
+        </ul>
+
+        <div>
+            <select ng-model="ddlcolor" ng-options="color.id for color in colors">
+                <option value="">Select</option>
+            </select>
+            <p style="background:{{ddlcolor.name}}">
+                Selected color is : {{ddlcolor.name}} | {{ddlcolor.id}}
+            </p>
+        </div>
+    </div>
+</body>
+</html>

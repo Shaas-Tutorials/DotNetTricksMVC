@@ -1,0 +1,28 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\BAL.dll.config
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\BAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\BAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\DAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\DAL.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\obj\Debug\BAL.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\ShoppingSite_7AM\BAL\obj\Debug\BAL.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\BAL.dll.config
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\BAL.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\BAL.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\DAL.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\ViewModels.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\DAL.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\ViewModels.pdb
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\obj\Debug\BAL.dll
+C:\DotNetTricks_Classes\July_28_7AM_MVC-20160906T044817Z\July_28_7AM_MVC\ShoppingSite_7AM_2\ShoppingSite_7AM\BAL\obj\Debug\BAL.pdb

@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <input  type="text" name="Name" id="Username"/>
+    </div>
+    <div>
+        Username : @Html.TextBox("Name")
+    </div>
+    <div>
+        Full Name : @Html.TextBox("FullName")
+    </div>
+    <div>
+        Password : @Html.Password("Password")
+    </div>
+    <div>
+        Address : @Html.TextArea("Address")
+    </div>
+    <div>
+        @*<input  type="submit" value="Save"/>*@
+
+        @Html.SubmitButton("Save","Command")
+        @Html.strSubmitButton("Cancel", "Command")
+        @Html.Raw(Html.strSubmitButton("Reset", "Command"))
+    </div>
+}

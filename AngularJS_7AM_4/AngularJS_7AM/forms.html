@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="libs/angular.js"></script>
+    <script src="libs/angular-messages.js"></script>
+    <script>
+        angular
+            .module("myApp", ["ngMessages"])
+            .directive("myCompare", function () {
+                return {
+                    restrict: "A",
+                    require: "ngModel",
+                    link: function (scope, el, attrs, ctrl) {
+                        var firstFl = document.getElementsByName(attrs.myCompare)[0];
+                        var firstEl = angular.element(firstFl);
+
+                        el.on("keyup", function () {
+                            var IsMatch = firstEl.val() === el.val();
+                            ctrl.$setValidity("compare", IsMatch);
+                            scope.$digest();
+                        });
+
+                        firstEl.on("keyup", function () {
+                            var IsMatch = firstEl.val() === el.val();
+                            ctrl.$setValidity("compare", IsMatch);
+                            scope.$digest();
+                        });
+                    }
+                }
+            })
+            .controller("ctrl", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+
+                $scope.saveData = function (user) {
+                    if ($scope.userForm.$valid) {
+                        alert("form is valid!");
+                        console.log(user);
+                    }
+                }
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl" class="container">
+        <h2>User Form</h2>
+        <hr />
+        <form class="form-horizontal" name="userForm" ng-submit="saveData(user)" novalidate>
+            <div class="form-group">
+                <label class="col-sm-2">Full Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" ng-model="user.Name" name="Name" ng-required="true">
+                    <div ng-messages="userForm.Name.$error" class="text-danger" ng-show="userForm.Name.$dirty || userForm.$submitted">
+                        <span ng-message="required">Please Enter Name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2">Username</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" ng-model="user.Username" name="Username" ng-required="true" ng-minlength="3" ng-maxlength="20">
+                    <div ng-messages="userForm.Username.$error" class="text-danger" ng-show="userForm.Username.$dirty || userForm.$submitted">
+                        <span ng-message="required">Please Enter Username</span>
+                        <span ng-message="minlength">Username must have atleast three chars</span>
+                        <span ng-message="maxlength">Username can have max 20 chars</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" ng-model="user.Password" name="Password" ng-required="true">
+                    <div ng-messages="userForm.Password.$error" class="text-danger" ng-show="userForm.Password.$dirty || userForm.$submitted">
+                        <span ng-message="required">Please Enter Password</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2">Confirm Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" ng-model="user.ConfirmPassword" name="ConfirmPassword" ng-required="true" my-compare="Password">
+                    <div ng-messages="userForm.ConfirmPassword.$error" class="text-danger" ng-show="userForm.ConfirmPassword.$dirty || userForm.$submitted">
+                        <span ng-message="required">Please Enter Confirm Password</span>
+                        <span ng-message="compare">Confirm Password doesn't match</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2">Contact No.</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" ng-model="user.ContactNo" name="ContactNo" ng-pattern="/^[789]\d{9}$/">
+                    <div ng-messages="userForm.ContactNo.$error" class="text-danger" ng-show="userForm.ContactNo.$dirty || userForm.$submitted">
+                        <span ng-message="pattern">Please Enter Correct Contact No.</span>
+                    </div>
+                </div>
+            </div>           
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="user.IsTerms" name="Terms" ng-required="true"> Accept Terms & Conditions
+                        </label>
+                    </div>
+                    <div ng-messages="userForm.Terms.$error" class="text-danger" ng-show="userForm.Terms.$dirty || userForm.$submitted">
+                        <span ng-message="required">Please Accept Terms</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

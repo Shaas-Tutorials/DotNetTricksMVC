@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>{{Title}}</title>
+    <script src="libs/angular.js"></script>
+    <script>
+        angular
+            .module("myApp", [])
+            .controller("ctrl", function ($scope, $rootScope) {
+                $rootScope.Title = "Angular App";
+
+                $scope.ClickCounter = 0;
+                $scope.dblClickCounter = 0;
+                $scope.changeCounter = 0;
+
+                $scope.UpdateClickCounter = function () {
+                    $scope.ClickCounter++;
+                }
+                $scope.UpdatedblClickCounter = function () {
+                    $scope.dblClickCounter++;
+                }
+                $scope.UpdatechangeCounter = function () {
+                    $scope.changeCounter++;
+                }
+            });
+    </script>
+</head>
+<body>
+    <div ng-controller="ctrl">
+        <button type="button" ng-click="UpdateClickCounter()">Click</button> : {{ClickCounter}}
+        <br />
+        <button type="button" ng-dblclick="UpdatedblClickCounter()">dblClick</button> : {{dblClickCounter}}
+        <br />
+        <input type="text" ng-model="Name" ng-change="UpdatechangeCounter()" /> : {{changeCounter}}
+    </div>
+</body>
+</html>

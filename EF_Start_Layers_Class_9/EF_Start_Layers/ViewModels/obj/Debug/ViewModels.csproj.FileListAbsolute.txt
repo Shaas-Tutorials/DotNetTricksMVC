@@ -1,0 +1,5 @@
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\obj\Debug\ViewModels.pdb
+C:\Users\Shailendra Chauhan\Desktop\Code\WeekDays\EF_Start_Layers\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache

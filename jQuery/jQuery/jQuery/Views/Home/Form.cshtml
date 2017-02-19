@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Form";
+}
+<script>
+    $(document).ready(function () {
+        $("#ddlCustomer").change(function () {
+         //   debugger;
+            var value = $(this).val();
+            var str = "";
+            for (var i = 1; i <= value; i++) {
+                var id = "txt" + i;
+                str += '<p><label>Name #' + i + ' </label> <input type="text" id="' + id + '" name="' + id + '" /><span class="text-danger"></span></p>';
+            }
+            if (value > 0)
+                str += '<p><input type="submit" id="btnSave" value="Save"/></p>';
+            $("#container").html(str);
+        });
+
+        $("#container").delegate("#btnSave", "click", function (e) {
+            e.preventDefault();
+            var flag = true;
+
+            var value = $("#ddlCustomer").val();
+            for (var i = 1; i <= value; i++) {
+                var id = "#txt" + i;
+                var data = $(id).val().trim();
+                if (data == "") {
+                    $(id).next().text(" Please Enter Name");
+                    flag = false;
+                }
+                else {
+                    $(id).next().text("");
+                }
+            }
+            if (flag) {
+                $("form").submit();
+            }
+        });
+
+        $("#container").delegate("input[type='text']", "keyup", function () {
+            var value = $(this).val().trim();
+
+            if (value == "") {
+                $(this).next().text(" Please Enter Name");
+            }
+            else {
+                $(this).next().text("");
+            }
+        });
+    });
+</script>
+<h2>Form</h2>
+@using (Html.BeginForm())
+{
+    <div>
+        Select Customers : @Html.DropDownList("ddlCustomer", new SelectList(new[]{
+                          new{value="0",text="Select"},
+                          new{value="1",text="1"},
+                          new{value="2",text="2"},
+                          new{value="3",text="3"},
+                          new{value="4",text="4"}
+                      }, "value", "text"))
+    </div>
+    <hr />
+    <div id="container">
+
+    </div>
+}

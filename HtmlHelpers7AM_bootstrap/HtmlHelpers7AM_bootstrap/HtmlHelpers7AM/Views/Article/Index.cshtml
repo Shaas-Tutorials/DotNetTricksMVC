@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>What is MVC?</h2>
+<p>
+    ASP.NET MVC is a framework to develop website.
+</p>
+
+<h3>Comments</h3>
+@{Html.RenderAction("GetComments", "Article", new { id = 4 });}
+
