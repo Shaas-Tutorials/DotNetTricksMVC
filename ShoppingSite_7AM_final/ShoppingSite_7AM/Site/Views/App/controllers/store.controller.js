@@ -1,6 +1,9 @@
 ﻿angular
     .module("myApp")
     .controller("storeCtrl", ['storeService', '$scope', '$rootScope', '$state', '$stateParams', function (storeService, $scope, $rootScope, $state, $stateParams) {
+
+        debugger;
+
         $rootScope.cart = new shoppingCart("myCart");
 
         if ($state.current.name == "home") {

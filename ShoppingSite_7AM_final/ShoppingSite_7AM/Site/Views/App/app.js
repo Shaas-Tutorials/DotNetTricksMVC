@@ -1,25 +1,28 @@
-﻿angular
+﻿
+
+angular
     .module("myApp", ["ui.router"])
     .config(['$stateProvider', '$urlRouterProvider', function (statePrd, urlPrd) {
         urlPrd.otherwise("/");
-
+        debugger;
         statePrd
             .state("home", {
                 url: "/",
-                templateUrl: "/views/app/views/store.html",
+                templateUrl: "Views/App/views/store.html",
                 controller: "storeCtrl"
             })
             .state("product", {
                 url: "/product/:id",
-                templateUrl: "/views/app/views/product.html",
+                templateUrl: "Views/app/views/product.html",
                 controller: "storeCtrl"
             })
             .state("cart", {
                 url: "/cart",
-                templateUrl: "/views/app/views/cart.html",
+                templateUrl: "Views/app/views/cart.html",
                 controller: "storeCtrl"
             });
     }])
     .constant("globalConfig", {
-        apiAddress: 'http://localhost:63853/api'
+        apiAddress: 'http://localhost/WebAPI/api'
     });
+

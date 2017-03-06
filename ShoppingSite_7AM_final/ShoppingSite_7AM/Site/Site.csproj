@@ -14,12 +14,13 @@
     <RootNamespace>Site</RootNamespace>
     <AssemblyName>Site</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -255,7 +256,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <None Include="Scripts\_references.js" />
     <Content Include="Uploads\angularjs.jpg" />
+    <Content Include="Uploads\apple-silicone-iphone-6-case-640x427-c.jpg" />
     <Content Include="Uploads\cello.jpg" />
+    <Content Include="Uploads\download.jpg" />
     <Content Include="Uploads\mvc.jpg" />
     <Content Include="Uploads\parker.jpg" />
     <Content Include="Views\App\app.js" />
@@ -342,7 +345,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63850</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:63850/</IISUrl>
+          <IISUrl>http://localhost/Site</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

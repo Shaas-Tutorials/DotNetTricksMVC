@@ -2,6 +2,8 @@
     .module("myApp")
     .factory("storeService", ['$http','globalConfig',function (http,global) {
         var url = "";
+        debugger;
+        console.log(global.apiAddress)
         return {
             getProducts: function () {
                 url = global.apiAddress + "/StoreApi";

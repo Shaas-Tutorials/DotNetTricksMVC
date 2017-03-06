@@ -27,16 +27,17 @@ namespace Site.Controllers
         // GET: Account
         public ActionResult Login()
         {
-            try
-            {
-                int a = 0, b = 5;
-                int c = b / a;
-            }
-            catch (Exception ex)
-            {
-                Elmah.ErrorSignal.FromCurrentContext().Raise(ex);
-            }
             return View();
+            //try
+            //{
+            //    //int a = 0, b = 5;
+            //    //int c = b / a;
+            //}
+            //catch (Exception ex)
+            //{
+            //    Elmah.ErrorSignal.FromCurrentContext().Raise(ex);
+            //}
+            //return View();
         }
 
         [HttpPost]
@@ -63,7 +64,8 @@ namespace Site.Controllers
                 }
                 else if (user.Roles.Contains("User"))
                 {
-                    return RedirectToAction("Index", "Home", new { area = "user" });
+                    //return RedirectToAction("Index", "Home", new { area = "user" });
+                    return RedirectToAction("Index", "App", new { area = "" });
                 }
             }
             return View();

@@ -43,7 +43,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="/" class="navbar-brand">Online Store</a>
+                    <a href="#" class="navbar-brand">Online Store</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav pull-right">
@@ -56,9 +56,15 @@
                                 @Html.ActionLink("Sign Out", "SignOut", "Account", new { area = "" }, null)
                             </li>
                         }
+                        else
+                        {
+                            <li>
+                                @Html.ActionLink("Login", "Login", "Account", new { area = "" }, null)
+                            </li>
+                        }
                         <li>
                             <a ui-sref="cart">
-                                <i class="glyphicon glyphicon-shopping-cart"></i>  {{cart.getTotalCount()}} items, Rs. {{cart.getTotalPrice()}}
+                                <i class="glyphicon glyphicon-shopping-cart"></i>  {{cart.getTotalCount()}} items, $ {{cart.getTotalPrice()}}
                             </a>
                         </li>
                     </ul>
